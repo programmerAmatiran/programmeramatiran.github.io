@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.session{
+    background: #2686ED url('/asset/4902908.jpg') no-repeat fixed ;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    background-position-y: center;
+    background-position-x: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    min-width: 40%;
+}
+
+.container{
+    border-radius: 10px;
+    background: rgba(235, 235, 235, 0.5);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px;
+    min-height: 65vh;
+    justify-content: center;
+    min-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80%;
+}
+
+a{
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+    border-radius: 10px;
+    color: #EA4263;
+    padding: 20px 40px;
+    margin: 10px;
+    width: -webkit-fill-available;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    *{
+        font-size: 1rem;
+    }
+    .main {
+        min-width: 80%;
+    }
+}
